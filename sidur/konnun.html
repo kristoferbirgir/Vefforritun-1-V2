@@ -16,7 +16,11 @@
       <h2>Reynsla af forritun</h2> 
       </header>
       <p>Forritunarmál sem ég kann best</p> 
-      <p>Hversu vel kanntu forritunarmálið á skalanum 0 til 10?</p>
+      <form action="/action_page.php">
+        <label for="vol">Hversu vel kanntu forritunarmálið á skalanum 0 til 10?</label>
+        <input type="range" id="vol" name="vol" min="0" max="10">
+        <input type="submit">
+      </form>
       <p>Hvað finnst þér best við forritunarmálið?</p>
       <p>Hvað finnst þér verst við forritunarmálið?</p>
       <p>Dæmi um forrit</p>
